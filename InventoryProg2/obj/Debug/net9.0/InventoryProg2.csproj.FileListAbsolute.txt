@@ -12,3 +12,4 @@ C:\Users\gustav.jonssonjuho\Documents\Programering\C#\Mini-Inventory\InventoryPr
 C:\Users\gustav.jonssonjuho\Documents\Programering\C#\Mini-Inventory\InventoryProg2\obj\Debug\net9.0\InventoryProg2.pdb
 C:\Users\gustav.jonssonjuho\Documents\Programering\C#\Mini-Inventory\InventoryProg2\obj\Debug\net9.0\InventoryProg2.genruntimeconfig.cache
 C:\Users\gustav.jonssonjuho\Documents\Programering\C#\Mini-Inventory\InventoryProg2\obj\Debug\net9.0\ref\InventoryProg2.dll
+C:\Users\gustav.jonssonjuho\Documents\Programering\C#\Mini-Inventory\InventoryProg2\obj\Debug\net9.0\InventoryProg2.sourcelink.json

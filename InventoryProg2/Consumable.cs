@@ -1,7 +1,6 @@
 ﻿public class Consumable : Item
 {
-    public Consumable() =>
-        SetConsumable();
+    public Consumable(string? question = null) : base(question) => SetConsumable();
     
     int UsesMax;
     int UsesCurrent;
@@ -10,7 +9,6 @@
     {
         UsesMax = Input.Int(0, int.MaxValue, "How Many Times Can You Use It?\nInput A Number");
         UsesCurrent = UsesMax;
-        Console.Clear();
     }
     public void Use(Character target)
     {
@@ -23,5 +21,11 @@
         UsesCurrent--;
     }
 
-    public int GetUsesCurrent() => UsesCurrent;
+    public override string ToString()
+    {
+        string text = base.ToString();
+        text += $"Uses Left: {UsesCurrent}\n";
+
+        return text;
+    }
 }

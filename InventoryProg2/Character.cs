@@ -11,8 +11,6 @@
     {
         Backpack.Items.Add(itemToAdd);
     }
-    public void DisplayInventory()
-    {
-        Backpack.Display();
-    }
+    public string DisplayInventory() => Backpack.Display();
+    
 }
